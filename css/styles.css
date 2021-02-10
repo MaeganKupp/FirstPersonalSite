@@ -1,15 +1,25 @@
-head {
-  border-left-color:hotpink;
-  border-right-color:hotpink; 
-}
-
+<link> url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+</link>
+<link> url(https://fonts.googleapis.com/css?family=Monoton);
+</link>
 body {
   background-color: rgb(214, 210, 210);
- 
+
 }
 h1 {
-  color: #66bfbf;
+  /* color: #66bfbf;
   font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 40px;*/
+  font-family: "block";
+    position: relative;
+    font-size: 60;
+    background: linear-gradient(to bottom,  #00f2ff 0%,#e2fbff 50%,#0099ff 51%,#0066cc 100%);
+    background-size: 10px;
+    line-height: 1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
 }
 h3 {
   color: #66bfbf;
